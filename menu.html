@@ -61,53 +61,166 @@
                 <p class="lead">Broken and slow-performing devices can grind productivity down to a halt for big and small companies. X-COM can get business booming again.
 
                 </p>
-                <div class="tab">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators pt-5">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
 
-                    <button class="tablinks" onclick="menu(event, 'London')">London</button>
-                    <button class="tablinks" onclick="menu(event, 'Paris')">Paris</button>
-                    <button class="tablinks" onclick="menu(event, 'Tokyo')">Tokyo</button>
-                    <div id="London" class="tabcontent">
-                        <h3>London</h3>
-                        <p>London is the capital city of England.</p>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <img src="images/slider/burger.jpg" style="height:300px">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="images/slider/fries.png" style="height: 300px;">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="images/slider/spaghetti.png" style="height: 300px;">
+                            </center>
+                        </div>
                     </div>
 
-                    <div id="Paris" class="tabcontent">
-                        <h3>Paris</h3>
-                        <p>Paris is the capital of France.</p>
-                    </div>
-
-                    <div id="Tokyo" class="tabcontent">
-                        <h3>Tokyo</h3>
-                        <p>Tokyo is the capital of Japan.</p>
-                    </div>
-
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="color:black">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="color:black">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
 
 
 
             <!--/#best-filter-->
-
+            <center>
+                <h2>List</h2>
+            </center>
             <div class="row">
 
+                <div class="album py-5 bg-light">
+                    <div class="text-center">
+                        <h1>Hobbies</h1>
+                        <br>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-4 border border-dark">
+                                <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
+                                    <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/tea.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <H2 class="card-text text-center pt-2">Caramel Tea</H2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <center>
+                                                <div class="btn-group text-center">
+                                                    <button type="button" class="btn btn-outline-secondary">View Food</button>
+                                                    <button type="button" class="btn btn-danger">Add to Order</button>
+                                                </div>
+                                            </center>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 border border-dark">
+                                <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
+                                    <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/tea.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <H2 class="card-text text-center pt-2">Caramel Tea</H2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <center>
+                                                <div class="btn-group text-center">
+                                                    <button type="button" class="btn btn-outline-secondary">View Food</button>
+                                                    <button type="button" class="btn btn-danger">Add to Order</button>
+                                                </div>
+                                            </center>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 border border-dark">
+                                <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
+                                    <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/tea.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <H2 class="card-text text-center pt-2">Caramel Tea</H2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <center>
+                                                <div class="btn-group text-center">
+                                                    <button type="button" class="btn btn-outline-secondary">View Food</button>
+                                                    <button type="button" class="btn btn-danger">Add to Order</button>
+                                                </div>
+                                            </center>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="/WAD/pic/4.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p class="card-text">I Play games like Genshin Impact on my laptop and play mobile games like MMORPG to detoxify my stress and have fun.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="/WAD/pic/5.png" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p class="card-text">The best part of my hobby is sleep on the afternoon after a relaxing snack or after work or class from the school.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="/WAD/pic/6.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p class="card-text">TI love talking to my friends and play with them to not feel like im lonely and as well during quarantine time of this year.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
 
             </div>
 
             <!--/#list-filter-->
 
-            <div class="row">
-                <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-5 col-md-6 ">
-                    <div class="recent-work-wrap">
-                        <video controls preload="none" width="575" height="315"><source src="video/How%20to%20recover%20data%20from%20a%20hard%20drive%20(stuck%20heads_%20buzzing,%20clicking,%20etc).mp4" frameborder="0" allowfullscreen></video>
-                    </div>
-                </div>
-                <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3 ">
-                    <div class="recent-work-wrap">
-                        <video controls preload="none" width="580" height="315"><source src="video/How%20to%20replace%20a%20laptop%20cracked%20screen%20in%20under%2010%20Minutes.mp4" frameborder="0" allowfullscreen></video>
-                    </div>
-                </div>
 
-            </div>
         </div>
     </section>
 
@@ -245,5 +358,19 @@
         display: none;
         padding: 6px 12px;
         border-top: none;
+    }
+    
+    .carousel-control.left {
+        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%) !important;
+        background-repeat: repeat-x;
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    }
+    
+    .carousel-control.right {
+        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%) !important;
+        background-repeat: repeat-x;
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     }
 </style>
