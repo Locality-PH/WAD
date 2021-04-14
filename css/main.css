@@ -4,6 +4,11 @@
 *******Typography******
 **************************/
 
+@font-face {
+    font-family: Rougant;
+    src: url(../fonts/Rougant.otf);
+  }
+
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
