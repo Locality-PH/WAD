@@ -4,6 +4,15 @@
 *******Typography******
 **************************/
 
+.menu-slider{
+    height: 400px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+ 
 @font-face {
     font-family: Rougant;
     src: url(../fonts/Rougant.otf);

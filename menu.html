@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>X-COM</title>
+
+    <title>Menu</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/menu-page.min.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/icon.png">
 </head>
 
 <body>
@@ -29,11 +32,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand"  href="index.html"><h1 style="font-family: Rougant">Real Taste</h1></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right test">
                     <ul class="nav navbar-nav">
+                        <li><a href="#" class="inactiveLink"><span id='ct6'></span></a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about-us.html">About Us</a></li>
                         <li class="active"><a href="menu.html">Menu</a></li>
@@ -52,9 +56,7 @@
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="center">
                 <h2>Menu</h2>
-                <p class="lead">Broken and slow-performing devices can grind productivity down to a halt for big and small companies. X-COM can get business booming again.
 
-                </p>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators pt-5">
@@ -67,19 +69,19 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <center>
-                                <img src="images/slider/burger.png" style="height:400px">
+                                <img src="images/slider/burger.png" class="img-responsive" style="height:400px">
                             </center>
                         </div>
 
                         <div class="item">
                             <center>
-                                <img src="images/slider/fries.png" style="height: 400px;">
+                                <img src="images/slider/fries.png" class="img-responsive" style="height: 400px;">
                             </center>
                         </div>
 
                         <div class="item">
                             <center>
-                                <img src="images/slider/spaghetti.png" style="height: 400px;">
+                                <img src="images/slider/spaghetti.png" class="img-responsive"style="height: 400px;">
                             </center>
                         </div>
                     </div>
@@ -97,8 +99,6 @@
             </div>
         </section>
 
-
-
             <!--/#best-filter-->
     <section id="List">
 
@@ -107,7 +107,7 @@
                 <div class="container center wow fadeInDown">
                     <h2>List</h2>
                     <div class="row">
-                        <div class="col-md-4 border border-dark pt-1" style="margin-top: 15px;">
+                        <div class="col-md-4 border border-dark pt-1 padding" style="margin-top: 15px;">
                             <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
                                 <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/tea.jpg" data-holder-rendered="true">
                                 <div class="card-body">
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 border border-dark pt-1" style="margin-top: 15px;">
+                        <div class="col-md-4 border border-dark pt-1 padding" style="margin-top: 15px;">
                             <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
                                 <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/burger.png" data-holder-rendered="true">
                                 <div class="card-body">
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 border border-dark pt-1" style="margin-top: 15px;">
+                        <div class="col-md-4 border border-dark pt-1 padding" style="margin-top: 15px;">
                             <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
                                 <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/dessert.jpg" data-holder-rendered="true">
                                 <div class="card-body">
@@ -161,11 +161,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 border border-dark pt-1" style="margin-top: 15px;">
+                        <div class="col-md-4 border border-dark pt-1 padding" style="margin-top: 15px;">
                             <div class="card mb-4 box-shadow border border-dark" style="border:rgba(0, 0, 0, 0.5) solid">
                                 <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="images/menu/burgersteak.jpg" data-holder-rendered="true">
                                 <div class="card-body">
-                                    <H2 class="card-text text-center pt-2">Burger Stake Meal</H2>
+                                    <H2 class="card-text text-center pt-2" id="burger-list-text">Burger Stake Meal</H2>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <center>
                                             <div class="btn-group text-center">
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 border border-dark pt-1 " style="margin-top: 15px;">
+                        <div class="col-md-4 border border-dark pt-1 padding " style="margin-top: 15px;">
                             <div class=" card mb-4 box-shadow border border-dark " style="border:rgba(0, 0, 0, 0.5) solid ">
                                 <img class="card-img-top " style="height: 300px; width: 100%; display: block; " src="images/menu/fries.jpg " data-holder-rendered="true ">
                                 <div class="card-body ">
@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 border border-dark mt-1 " style="margin-top: 15px; ">
+                        <div class="col-md-4 border border-dark pt-1 padding " style="margin-top: 15px; ">
                             <div class="card mb-4 box-shadow border border-dark " style="border:rgba(0, 0, 0, 0.5) solid ">
                                 <img class="card-img-top " style="height: 300px; width: 100%; display: block; " src="images/menu/spaghetti.jpg " data-holder-rendered="true ">
                                 <div class="card-body ">
@@ -337,58 +337,5 @@
         document.getElementById(cityName).style.display = "block ";
         evt.currentTarget.className += " active ";
     }
-    var xvent = document.getElementById('London').style.display = "block ";
-</script>
 
-<style>
-    body {
-        font-family: Arial;
-    }
-    /* Style the tab */
-    
-    .tab {
-        overflow: hidden;
-    }
-    /* Style the buttons inside the tab */
-    
-    .tab button {
-        background-color: inherit;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 17px;
-    }
-    /* Change background color of buttons on hover */
-    
-    .tab button:hover {
-        background-color: #ddd;
-    }
-    /* Create an active/current tablink class */
-    
-    .tab button.active {
-        background-color: #ccc;
-    }
-    /* Style the tab content */
-    
-    .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border-top: none;
-    }
-    
-    .carousel-control.left {
-        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%) !important;
-        background-repeat: repeat-x;
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-    }
-    
-    .carousel-control.right {
-        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%) !important;
-        background-repeat: repeat-x;
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-    }
-</style>
+</script>
