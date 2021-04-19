@@ -17,6 +17,13 @@
     <link rel="shortcut icon" href="images/icon.png">
     <script src="js/jquery.js"></script>
 
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
+
     <body class="homepage">
         <audio hidden autoplay controls src="music/intro_music.mp3" id="intro_music" type="audio/mpeg"></audio>
 
@@ -107,7 +114,7 @@
                     <div class="col">
                         <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-12 col-md-12 ">
                             <div class="recent-work-wrap">
-                                <video controls autoplay muted preload="none" style="width:100%;height: auto;"><source src="video/cooking_scene.mp4" frameborder="0" id="home_video" allowfullscreen></video>
+                                <video controls autoplay muted preload="none" style="width:100%;height: auto;background-color: black;"><source src="video/cooking_scene.mp4" frameborder="0" id="home_video" allowfullscreen></video>
                             </div>
                         </div>
                     </div>
@@ -211,6 +218,7 @@
             audio.volume = 0.2;
             var video = document.getElementById("home_video");
             video.volume = 0.3;
+
         </script>
     </body>
 

@@ -69,7 +69,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <center>
-                                <img src="images/slider/Burger.png" class="img-responsive" style="height:400px">
+                                <img src="images/slider/Burger.png" class="img-responsive" style="height: 400px;">
                             </center>
                         </div>
 
@@ -102,7 +102,7 @@
             <!--/#best-filter-->
     <section id="List">
 
-        <div class="row">
+        <div class="row" style="width: 100%;">
             <div class="album py-5 bg-light">
                 <div class="container center wow fadeInDown">
                     <h2>List</h2>
@@ -318,24 +318,11 @@
     <script src="js/jquery.prettyPhoto.js "></script>
     <script src="js/jquery.isotope.min.js "></script>
     <script src="js/main.js "></script>
+    <script src="js/carousel.min.js"></script>
     <script src="js/wow.min.js "></script>
 </body>
 
 </html>
 
-<script>
-    function menu(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent ");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none ";
-        }
-        tablinks = document.getElementsByClassName("tablinks ");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active ", " ");
-        }
-        document.getElementById(cityName).style.display = "block ";
-        evt.currentTarget.className += " active ";
-    }
 
-</script>
+
